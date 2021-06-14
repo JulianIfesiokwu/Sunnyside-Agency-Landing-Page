@@ -2,65 +2,128 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  l
-  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">  
   <title>Frontend Mentor | Sunnyside agency landing page</title>
   <link rel="stylesheet" media="screen and (min-width: 601px)" href="./stylesheets/desktop.css">
   <link rel="stylesheet" media="screen and (min-width: 140px) and (max-width: 376px)" href="./stylesheets/mobile.css">
 
 </head>
 <body>
-  About
-  Services
-  Projects
-  Contact
 
-  We are creatives
+    <div class="container">
 
-  Transform your brand
+        <!-- landing Page -->
+        <section class="landing">
+            <header>
+                <a href="./index.html"><img src="./images/logo.svg" alt="logo"></a>
+                <nav>
+                    <img src="./images/icon-hamburger.svg" alt="">
+                    <ul class="nav-list">
+                        <li>About</li>
+                        <li>Services</li>
+                        <li>Projects</li>
+                        <li>Contact</li>
+                    </ul>
+                </nav>
+            </header>
+            
+            <h1>WE ARE CREATIVES</h1>
 
-  We are a full-service creative agency specializing in helping brands grow fast. 
-  Engage your clients through compelling visuals that do most of the marketing for you.
+        </section>
 
-  Learn more
+        <!-- Transform -->
+        <section class="transform">
+            <section class="transform-one">
 
-  Stand out to the right audience
+            </section>
+            <section class="transform-two">
+                <h2>Transform your brand</h2>
+                <p>  We are a full-service creative agency specializing in helping brands grow fast. 
+                    Engage your clients through compelling visuals that do most of the marketing for you.
+                </p>
+                <a href="#">Learn more</a>
+            </section>
+        </section>
 
-  Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places. 
+        <!-- Audience -->
+        <section class="audience">
+            <section class="audience-one">
 
-  Learn more
+            </section>
+            <section class="audience-two">
+                <h2>Stand out to the right audience</h2>
+                <p>Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places. 
+                </p>
+                <a href="#">Learn more</a>
+            </section>
+        </section>
 
-  Graphic design
-  Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.
+        <!-- Graphic Design -->
+        <section class="graphic-design">
+            <section class="graphic-one">
 
-  Photography
-  Increase your credibility by getting the most stunning, high-quality photos that improve your business image.
+            </section>
+            <section class="graphic-two">
+                <h2>Graphic design</h2>
+                <p>Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.</p>
+            </section>
+        </section>
 
-  Client testimonials
+        <!-- Photography -->
+        <section class="photography">
+            <section class="photography-one">
 
-  We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.
-  Emily R.
-  Marketing Director
+            </section>
+            <section class="photography-two">
+                <h2>Photography</h2>
+                <p>Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
+            </section>
+        </section>
 
-  Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.
-  Thomas S.
-  Chief Operating Officer
+        <!-- Testimonials -->
+        <section class="testimonials">
+            <section class="testimonials-header">
+                <h2>Client testimonials</h2>
+            </section>
 
-  Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!
-  Jennie F.
-  Business Owner
+            <div class="testimonial">
+                <img src="./images/image-emily.jpg" alt="Emily">
+                <p class="client-quote">We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</p>
+                <p class="client-name">Emily R.</p>
+                <p class="client-occupation">Marketing Director</p>
+            </div>
 
-  About
-  Services
-  Projects
-  Contact
+            <div class="testimonial">
+                <img src="./images/image-thomas.jpg" alt="Thomas">
+                <p class="client-quote">Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.</p>
+                <p class="client-name">Thomas S.</p>
+                <p class="client-occupation"> Chief Operating Officer</p>
+            </div>
 
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+            <div class="testimonial">
+                <img src="./images/image-jennie.jpg" alt="Jennie">
+                <p class="client-quote">  Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!
+                </p>
+                <p class="client-name">Jennie F.</p>
+                <p class="client-occupation">Business Owner</p>
+            </div>
+
+        </section>
+
+        <section class="four-images"></section>
+
+        <footer>
+            <ul class="footer-list">
+                <li>About</li>
+                <li>Services</li>
+                <li>Projects</li>
+                <li>Contact</li>
+            </ul>
+        </footer>
+    </div>
+
+
+  <script src="./scripts/main.js"></script>
 </body>
 </html>
