@@ -47,13 +47,40 @@ nav {
     right: 1rem;
 }
 
+.desktop-list {
+    display: none;
+}
+
 .icon-hamburger {
     display: inline-block;
+    position: absolute;
+    right: 0.5rem;
     vertical-align: super;
 }
 
 .dropdown-list {
     display: none;
+    position: relative;
+    top: 3rem;
+    right: 0.5rem;
+    list-style-type: none;
+    text-align: center;
+    font-family: var(--ff-body);
+    background-color: var(--White);
+    width: 320px;
+    height: 300px;
+    padding: 3rem 2rem;
+    color: var(--Grayish-blue);
+}
+
+.dropdown-list li {
+    margin-bottom: 2rem;
+}
+
+.dropdown-list li:hover {
+    background-color: var(--Yellow);
+    text-transform: uppercase;
+    font-family: var(--ff-heading);
 }
 
 .landing h1 {
@@ -77,6 +104,11 @@ nav {
 .transform, .audience {
     display: flex;
     flex-direction: column;
+}
+
+picture img {
+    width: 100%;
+    height: auto;
 }
 
 .transform-image, .audience-image  {
@@ -107,12 +139,14 @@ nav {
 .transform-two a{
     font-family: var(--ff-heading);
     text-transform: uppercase;
+    font-weight: 600;
     text-decoration-color: var(--Yellow);
 }
 
 .audience-two a {
     font-family: var(--ff-heading);
     text-transform: uppercase;
+    font-weight: 600;
     text-decoration-color: var(--Soft-red);
 }
 
@@ -222,7 +256,7 @@ footer {
     text-align: center;
 }
 
-footer h2 {
+footer .logo {
     padding-top: 2rem;
     margin-bottom: 3rem;
     color: var(--Dark-desaturated-cyan);

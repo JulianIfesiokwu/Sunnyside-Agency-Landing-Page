@@ -7,7 +7,7 @@ const hamburgerIcon = document.querySelector('.icon-hamburger');
 function toggleDropdown() {
     // get dropdown list
     const dropdownList = document.querySelector('.dropdown-list');
-    if(dropdownList.style.display = 'none') {
+    if(dropdownList.style.display === 'none') {
         dropdownList.style.display = 'block';
     } else {
         dropdownList.style.display = 'none'

@@ -14,9 +14,15 @@
     <div class="container">
 
         <!-- landing Page -->
-        <section class="landing">
+        <div class="landing">
             <header>
                 <a href="./index.html"><img  class="logo" src="./images/logo.svg" alt="logo"></a>
+                <ul class="desktop-list">
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Projects</li>
+                    <li>Contact</li>
+                </ul>
                 <nav>
                     <img class="icon-hamburger" src="./images/icon-hamburger.svg" alt="icon-hamburger">
                     <ul class="dropdown-list">
@@ -33,98 +39,116 @@
                 <img src="./images/icon-arrow-down.svg" alt="icon-arrow-down">
             </div>            
 
-        </section>
+        </div>
 
         <!-- Transform -->
-        <section class="transform">
-            <section class="transform-one">
-                <img class="transform-image" src="./images/mobile/image-transform.jpg" alt="image-transform">
-            </section>
+        <div class="transform">
+            <div class="transform-one">
+                <picture>
+                    <source media="(max-width: 375px)" srcset="./images/mobile/image-transform.jpg">
+                    <source media="(min-width: 601px)" srcset="./images/desktop/image-transform.jpg">
+                    <img src="./images/mobile/image-transform.jpg" alt="image-transform">
+                </picture>
+                
+            </div>
 
-            <section class="transform-two">
+            <div class="transform-two">
                 <h2>Transform your brand</h2>
                 <p>We are a full-service creative agency specializing in helping brands grow fast. 
                     Engage your clients through compelling visuals that do most of the marketing for you.
                 </p>
                 <a href="#">Learn more</a>
-            </section>
-        </section>
+            </div>
+        </div>
 
         <!-- Audience -->
-        <section class="audience">
-            <section class="audience-one">
-                <img class="audience-image" src="./images/mobile/image-stand-out.jpg" alt="image-stand-out">
+        <div class="audience">
+            <div class="audience-one">
+                <picture>
+                    <source media="(max-width: 375px)" srcset="./images/mobile/image-stand-out.jpg">
+                    <source media="(min-width: 601px)" srcset="./images/desktop/image-stand-out.jpg">
+                    <img class="audience-image" src="./images/mobile/image-stand-out.jpg" alt="image-stand-out">
+                </picture>
+                
 
-            </section>
-            <section class="audience-two">
+            </div>
+            <div class="audience-two">
                 <h2>Stand out to the right audience</h2>
                 <p>Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places. 
                 </p>
                 <a href="#">Learn more</a>
-            </section>
-        </section>
+            </div>
+        </div>
 
-        <!-- Graphic Design -->
-        <section class="graphic-design">
-            <section class="graphic-one">
+        
+        <div class="two-container">
+            <!-- Graphic Design -->
+        <div class="graphic-design">
+            <div class="graphic-one">
 
-            </section>
-            <section class="graphic-two">
+            </div>
+            <div class="graphic-two">
                 <h2>Graphic design</h2>
                 <p>Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.</p>
-            </section>
-        </section>
+            </div>
+        </div>
 
         <!-- Photography -->
-        <section class="photography">
-            <section class="photography-one">
+        <div class="photography">
+            <div class="photography-one">
 
-            </section>
-            <section class="photography-two">
+            </div>
+            <div class="photography-two">
                 <h2>Photography</h2>
                 <p>Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
-            </section>
-        </section>
+            </div>
+        </div>
+
+        </div>
+        
 
         <!-- Testimonials -->
-        <section class="testimonials">
-            <section class="testimonials-header">
+        <div class="testimonials">
+            <div class="testimonials-header">
                 <h2>Client testimonials</h2>
-            </section>
-
-            <div class="testimonial">
-                <img src="./images/image-emily.jpg" alt="Emily">
-                <p class="client-quote">We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</p>
-                <p class="client-name">Emily R.</p>
-                <p class="client-occupation">Marketing Director</p>
             </div>
 
-            <div class="testimonial">
-                <img src="./images/image-thomas.jpg" alt="Thomas">
-                <p class="client-quote">Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.</p>
-                <p class="client-name">Thomas S.</p>
-                <p class="client-occupation"> Chief Operating Officer</p>
+            <div class="client-testimonials">
+                <div class="testimonial">
+                    <img src="./images/image-emily.jpg" alt="Emily">
+                    <p class="client-quote">We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</p>
+                    <p class="client-name">Emily R.</p>
+                    <p class="client-occupation">Marketing Director</p>
+                </div>
+    
+                <div class="testimonial">
+                    <img src="./images/image-thomas.jpg" alt="Thomas">
+                    <p class="client-quote">Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.</p>
+                    <p class="client-name">Thomas S.</p>
+                    <p class="client-occupation"> Chief Operating Officer</p>
+                </div>
+    
+                <div class="testimonial">
+                    <img src="./images/image-jennie.jpg" alt="Jennie">
+                    <p class="client-quote">  Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!
+                    </p>
+                    <p class="client-name">Jennie F.</p>
+                    <p class="client-occupation">Business Owner</p>
+                </div>
+
             </div>
 
-            <div class="testimonial">
-                <img src="./images/image-jennie.jpg" alt="Jennie">
-                <p class="client-quote">  Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!
-                </p>
-                <p class="client-name">Jennie F.</p>
-                <p class="client-occupation">Business Owner</p>
-            </div>
+        </div>
 
-        </section>
-
-        <section class="four-images">
+        <div class="four-images">
             <img src="./images/mobile/image-gallery-milkbottles.jpg" alt="image-gallery-milkbottles">
             <img src="./images/mobile/image-gallery-orange.jpg" alt="image-gallery-orange">
             <img src="./images/mobile/image-gallery-cone.jpg" alt="image-gallery-cone">
             <img src="./images/mobile/image-gallery-sugar-cubes.jpg" alt="image-gallery-sugar-cubes">
-        </section>
+        </div>
 
         <footer>
-            <h2>sunnyside</h2>
+            <a href="./index.html"><img  class="logo" src="./images/logo.svg" alt="logo"></a>
 
             <ul class="footer-list">
                 <li>About</li>
