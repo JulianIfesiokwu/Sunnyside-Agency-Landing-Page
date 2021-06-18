@@ -36,6 +36,7 @@
     height: 120vh;
     margin: 0 auto;
     padding: 1rem;
+    padding-left: 1rem;
     background-image: url(../images/mobile/image-header.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -43,7 +44,7 @@
 
 nav {
     position: absolute;
-    top: 15px;
+    top: 1rem;
     right: 1rem;
 }
 

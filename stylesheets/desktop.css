@@ -65,11 +65,12 @@
     cursor: pointer;
 }
 
-.desktop-list li:hover {
+.desktop-list li:hover, .desktop-list li:focus {
     font-family: var(--ff-heading);
     text-transform: uppercase;
     border-radius: 30px;
     padding: 0.5rem 1rem;
+    color: var(--Dark-grayish-blue);
     background-color: whitesmoke;
 }
 
@@ -203,6 +204,10 @@ picture img{
     margin-bottom: 1rem;
 }
 
+.photography-two h2 p {
+    color: #19536b;
+}
+
 .testimonials h2 {
     margin-top: 4rem;
     text-align: center;
@@ -265,8 +270,9 @@ picture img{
 }
 
 footer {
-    background-color: var(--Dark-moderate-cyan);
+    background-color: #90d4c5;
     text-align: center;
+    color: hsl(166.8,44.2%,69.8%);
 }
 
 footer .logo {
